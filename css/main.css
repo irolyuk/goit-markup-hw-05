@@ -82,6 +82,10 @@ img {
   color: #2196f3;
 }
 
+.link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .current {
   color: #2196f3;
   display: block;
@@ -433,6 +437,7 @@ img {
   border-radius: 6px;
   text-align: center;
   border: 1px solid transparent;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -585,6 +590,7 @@ h3.title {
   border-radius: 4px;
   border: hidden;
   text-align: center;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons .item + .item {
@@ -606,6 +612,7 @@ h3.title {
 
 .contact a {
   color: #757575;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact a:hover {
@@ -631,6 +638,8 @@ h3.title {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50% 50%;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links a:hover {
@@ -654,6 +663,7 @@ h3.title {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cliets-list a:hover {
@@ -673,6 +683,7 @@ h3.title {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50% 50%;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-connect li:nth-child(2) {
@@ -705,10 +716,12 @@ h3.title {
 
 .potfolio-text-pos:hover .text {
   opacity: 1;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .potfolio-text-pos:hover::before {
   opacity: 1;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .potfolio-text-pos::before {
