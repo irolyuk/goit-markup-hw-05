@@ -716,19 +716,18 @@ h3.title {
   overflow: hidden;
 }
 
-.potfolio-text-pos:hover .text {
-  opacity: 1;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.potfolio-text-pos:hover::before {
+.potfolio-text-pos:hover::before,
+.potfolio-text-pos:focus::before {
   opacity: 1;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0);
 }
 
-.potfolio-text-pos:hover .text {
+.potfolio-text-pos:hover .text,
+.potfolio-text-pos:focus .text {
   transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .potfolio-text-pos::before {
